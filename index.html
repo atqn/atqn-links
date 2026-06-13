@@ -3,12 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <title>ATQN QR Links</title>
+
+<script>
+
+const links = {
+
+"t1":"https://vimeo.com/562256641"
+
+};
+
+const key = window.location.pathname.replace(/^\/+|\/+$/g, '');
+
+if (links[key]) {
+    window.location.replace(links[key]);
+}
+
+</script>
+
 </head>
 <body>
 
 <h1>ATQN QR Links</h1>
 
-<p>تم إنشاء الموقع بنجاح.</p>
+<p>جاري التحويل...</p>
 
 </body>
 </html>
